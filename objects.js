@@ -2,7 +2,7 @@ const person = {
     name: "Danilo",
     age: 21,
     greeting() {
-        return `Hi I'm ${this.name}`
+        return `My name is ${this.name}`
     }
 }
 
@@ -12,8 +12,8 @@ person.bands = [
     "Paramore",
     "Massive Attack",
 ]
+greeting();
 
-console.log(person);
 //
 
 // const alarmClock = {
